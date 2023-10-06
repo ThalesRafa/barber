@@ -1,0 +1,11 @@
+.contact{
+    padding: 144px 0;
+    .form-control{
+        background: transparent;
+    }
+    .form-group{
+        textarea.form-control{
+            height: 96px;
+        }
+    }
+}

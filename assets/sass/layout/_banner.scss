@@ -1,0 +1,23 @@
+
+.banner{
+  background: url(../media/bg/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 208px 0 245px;
+  @include media-query(992px) {
+    background-position: left;
+    padding: 100px 0;
+  }
+  @include media-query(490px) {
+    padding: 50px 0;
+  }
+
+  h4{
+    letter-spacing: -0.02em;
+  }
+  p{
+    letter-spacing: 0.5px;
+  }
+
+}
